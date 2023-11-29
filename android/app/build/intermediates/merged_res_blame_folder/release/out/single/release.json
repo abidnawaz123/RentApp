@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "com.rentapp-merged_res-24:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.rentapp-main-25:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.rentapp-merged_res-24:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.rentapp-main-25:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.rentapp-merged_res-24:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.rentapp-main-25:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.rentapp-merged_res-24:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.rentapp-main-25:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.rentapp-merged_res-24:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.rentapp-main-25:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.rentapp-merged_res-24:/drawable-mdpi_node_modules_reactnative_libraries_newappscreen_components_logo.png.flat",
+        "source": "com.rentapp-res-18:/drawable-mdpi/node_modules_reactnative_libraries_newappscreen_components_logo.png"
+    },
+    {
+        "merged": "com.rentapp-merged_res-24:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.rentapp-main-25:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.rentapp-merged_res-24:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.rentapp-main-25:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.rentapp-merged_res-24:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.rentapp-main-25:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.rentapp-merged_res-24:/drawable_rn_edit_text_material.xml.flat",
+        "source": "com.rentapp-main-25:/drawable/rn_edit_text_material.xml"
+    },
+    {
+        "merged": "com.rentapp-merged_res-24:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.rentapp-main-25:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.rentapp-merged_res-24:/drawable-mdpi_assets_houses_house1.jpg.flat",
+        "source": "com.rentapp-res-18:/drawable-mdpi/assets_houses_house1.jpg"
+    },
+    {
+        "merged": "com.rentapp-merged_res-24:/drawable-mdpi_assets_houses_house3.jpg.flat",
+        "source": "com.rentapp-res-18:/drawable-mdpi/assets_houses_house3.jpg"
+    },
+    {
+        "merged": "com.rentapp-merged_res-24:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.rentapp-main-25:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.rentapp-merged_res-24:/drawable-mdpi_assets_houses_house2.jpg.flat",
+        "source": "com.rentapp-res-18:/drawable-mdpi/assets_houses_house2.jpg"
+    }
+]
