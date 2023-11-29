@@ -1,10 +1,12 @@
-import React from 'react'
-import { Image, ScrollView, StyleSheet, Text, View } from 'react-native'
+import React, { useState } from 'react'
+import { Image, ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native'
 import { color } from '../../shared/colors'
 import Icon from "react-native-vector-icons/FontAwesome5"
 import { image } from '../../shared/images'
+import HousesModal from '../../Modal/HousesModal'
 
 const HousingList = () => {
+    const [modal, setModal] = useState(false)
 
     const list = [
         {
@@ -30,11 +32,17 @@ const HousingList = () => {
         },
     ]
 
+    const showMoreHouses = () => {
+        setModal(!modal)
+    }
+
     return (
         <View>
             <View style={styles.recommendation}>
                 <Text style={styles.Bfu}>Best for you</Text>
-                <Text style={styles.seeMore}>see more</Text>
+                <TouchableOpacity style={styles.seeMore} onPress={showMoreHouses}>
+                    <Text>see more</Text>
+                </TouchableOpacity>
             </View>
             <ScrollView>
                 {list.map(house => (
@@ -54,11 +62,11 @@ const HousingList = () => {
                                     <Icon name="bath" size={15} color={color.gray} />
                                     <Text>{house.bathRooms} BathRoom</Text>
                                 </View>
-
                             </View>
                         </View>
                     </View>
                 ))}
+                <HousesModal modal={modal} setModal={setModal} />
 
             </ScrollView>
         </View>
